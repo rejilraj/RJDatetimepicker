@@ -1,0 +1,59 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (secure credentials)
+.env
+.env.local
+.env.*.local
+
+# Build and output directories
+build/
+out/
+
+# Temporary and generated files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+*.old
+
+# Babel configuration
+.babelrc
+.babelrc.js
+.babelrc.cjs
+.babelrc.mjs
+.babelrc.json
+
+# Webpack files
+*.webpack.config.js.map
+
+# Package lock files (optional, depending on team policy)
+*.lock
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Miscellaneous
+*.cache
+*.pid
+*.seed
+*.pid.lock

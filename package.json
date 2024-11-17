@@ -1,0 +1,38 @@
+{
+  "name": "@rejilraj/rjdatetimepicker",
+  "version": "1.0.3",
+  "description": "Hi fellow developers this is a customizable calendar component for reactjs .It is responsive and easy to use",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "datetimepicker",
+    "calendar",
+    "reactjs"
+  ],
+  "author": "Rejil Raj",
+  "license": "ISC",
+  "dependencies": {
+    "@rejilraj/rjdatetimepicker": "^1.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-feather": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
